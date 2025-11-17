@@ -1,0 +1,41 @@
+/* poner tipografias */
+
+/* pones Roboto a todo el cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a3a; /* usas el color 3a3a3a para el texto por defecto */
+}
+
+/* poens Oswald a todos los títulos y al logo-texto */
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+#navbar-example3 .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+/* poner colores*/
+
+/* Cambiamos el color de los títulos principales */
+h4 {
+    color: #2A6EAF;
+}
+
+/* Sobreescribimos el color de los botones primarios de Bootstrap */
+.btn-primary {
+    background-color: #2A6EAF;
+    border-color: #2A6EAF;
+}
+
+/* Oscurecemos el botón al pasar el mouse (hover) */
+.btn-primary:hover {
+    background-color: #245d94; 
+    border-color: #245d94;
+}
+
+/* Hacemos que los links de la navegación usen la fuente Oswald */
+.navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem; 
+}
+
